@@ -2,3 +2,9 @@
 Cargo.lock
 *.trace/
 *.xml
+
+# Blog content lives in RatulDawar.github.io
+my-experiments/
+*.md
+!README.md
+!AGENTS.md
