@@ -1,4 +1,4 @@
-use cache_padding_demo::{benchmark_padded, benchmark_unpadded, UnpaddedCounters, PaddedCounters};
+use cache_padding::{benchmark_padded, benchmark_unpadded, UnpaddedCounters, PaddedCounters};
 use std::time::Instant;
 
 fn cache_line_number(addr: usize) -> usize {
