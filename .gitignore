@@ -8,3 +8,7 @@ my-experiments/
 *.md
 !README.md
 !AGENTS.md
+
+# Personal notes (not committed)
+blog-ideas.md
+drafts/
