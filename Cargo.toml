@@ -1,5 +1,5 @@
 [workspace]
-members = [
+members = ["atomics-vs-mutex",
     "cache-padding",
 ]
 resolver = "2"
