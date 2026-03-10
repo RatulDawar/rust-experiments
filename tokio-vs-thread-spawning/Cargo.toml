@@ -1,0 +1,14 @@
+[package]
+name = "tokio-vs-thread-spawning"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1.45", features = ["rt-multi-thread", "time"] }
+
+[dev-dependencies]
+criterion = { version = "0.5", features = ["html_reports"] }
+
+[[bench]]
+name = "tokio_vs_thread_spawning_bench"
+harness = false

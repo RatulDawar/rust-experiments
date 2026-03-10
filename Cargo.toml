@@ -1,5 +1,5 @@
 [workspace]
 members = ["atomics-vs-mutex",
-    "cache-padding",
+    "cache-padding", "tokio-vs-thread-spawning",
 ]
 resolver = "2"
